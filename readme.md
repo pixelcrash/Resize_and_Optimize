@@ -11,6 +11,8 @@ How to use it:
 2. Navigate to the folder with your Images
 3. Make sure you have a backup of your files, this process is not reservable 
 4. `$ sips --resampleWidth 1280 *.jpg`
+
 This command is going to scale all images (jpegs) inside the folder to a width of 1280 pixel and keep the aspect ratio
 5. `/Applications/ImageOptim.app/Contents/MacOS/ImageOptim *.jpg`
+
 This command will run the ImageOptim App in the background and optimize all images (jpeg) inside the folder
